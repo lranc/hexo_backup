@@ -1,0 +1,80 @@
+// Custom styles.
+body {
+  background:url(/images/2.jpg);
+  background-attachment: fixed;
+}
+//首页文章阴影样式
+.post {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 80px;
+    -webkit-box-shadow: 0 0 20px rgba(239, 188, 231, 0.5);
+    -moz-box-shadow: 0 0 20px rgba(239, 188, 231, 0.5);
+}
+//header 的menu菜单离底边的距离
+.header-inner {
+  padding: 100px 0 30px;
+  clearfix();
+
+  +mobile() {
+    width: auto;
+    margin-bottom: 50px;
+    padding: 10px;
+  }
+}
+//title样式
+.site-meta .site-title {
+
+    font-family: 'Comic Sans MS', sans-serif;
+
+}
+
+//POST
+.posts-expand {
+ 
+  .post-title,
+  .post-meta {
+    text-align: $site-meta-text-align;
+    +mobile() { text-align: center; }
+  }
+  .post-eof { display: none; }
+
+  .post-meta {
+    margin-top: 5px;
+    margin-bottom: 30px;
+  }
+
+
+  .post-tags {
+    text-align: center;
+    a {
+      padding: 1px 5px;
+
+      border-bottom: none;
+    }
+  }
+}
+
+.post-button .btn {
+    color: #fff;
+    font-size: 14px;
+    background: #222;
+    border-radius: 0;
+    line-height: 2;
+    margin: 0 4px 20px 4px;
+}
+
+.footer {
+	color: rgba(0,0,0,0.9);
+}
+//文章背景色
+.post{
+    background:rgba(255, 255, 255, 0.52);
+}
+.posts-expand .post-meta{
+  color: #000;
+}
+
+.menu{
+  background:rgba(245, 245, 245, 0.34);
+}
