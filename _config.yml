@@ -1,7 +1,10 @@
 # Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
-
+server:
+  port: 5000
+  compress: true
+  header: true
 # Site
 title: Hello, Lranc.
 subtitle:

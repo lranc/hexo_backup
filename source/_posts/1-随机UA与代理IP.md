@@ -37,11 +37,12 @@ user-agent = random.choice(user-agents)
 4).设计API接口,提供从Pool中获取IP地址,及删除IP地址的接口,以及个性化方案
 
 网上已有许多成熟的开源IP代理池项目
-本人的话,使用的是七夜的<font color='blue'>IPProxyPool项目</font>([地址][])
-[地址]:https://github.com/qiyeboy/IPProxyPool
+本人的话,使用的是七夜的<font color='blue'>IPProxyPool项目</font>([地址] [1])
+
 
 需要<font color="red">注意</font>的是,随机UA和频繁更换IP有时并不一定有效,甚至是错误的行为
 实际爬取时,部分网站会请求重定向,或多重定向
 在这些过程中,在一个会话中更换UA或IP可能会导致出错.
 
 
+[1]: https://github.com/qiyeboy/IPProxyPool
