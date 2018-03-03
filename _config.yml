@@ -74,11 +74,11 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: next
 
-# Deployment
+# Deployment https://github.com/lranc/lranc.github.io
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/lranc/lranc.github.io
+  repo: git@github.com:lranc/lranc.github.io.git
   branch: master
 
 search:
